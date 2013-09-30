@@ -67,8 +67,8 @@
 	</footer>
 
 </div>
-<div id="licence">
-	#{$licence_tag}
+<div id="license">
+	#{$license_tag}
 </div>
 
 
