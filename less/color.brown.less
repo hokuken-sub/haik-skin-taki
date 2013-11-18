@@ -18,11 +18,10 @@
 }
 
 .alert.alert-theme {
-	text-shadow: none;
-
+	
+	color: lighten(@theme, 60%);
 	a {
 		color: lighten(@theme, 60%);
-		text-shadow: none;
 		text-decoration: underline;
 	}
 
@@ -30,11 +29,6 @@
 		color: @grayLighter;
 	}
 	
-	.close {
-		color: @gray;
-		.opacity(100);
-		text-shadow: none;
-	}
 }
 
 .table {

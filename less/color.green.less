@@ -18,21 +18,14 @@
 }
 
 .alert.alert-theme {
-	text-shadow: none;
-
+	color: lighten(@theme, 70%);
 	a {
-		text-shadow: none;
+		color: lighten(@theme, 70%);
 		text-decoration: underline;
-	}
-
-	a:hover {
-		color: @grayLighter;
 	}
 	
 	.close {
 		color: @gray;
-		.opacity(100);
-		text-shadow: none;
 	}
 }
 

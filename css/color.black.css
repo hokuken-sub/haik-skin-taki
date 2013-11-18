@@ -123,12 +123,13 @@
   background-color: #3c3c3c;
   border-color: #2a2a2a;
   color: #ffffff;
+  text-shadow: none;
 }
 .alert-theme a {
-  color: #222222;
-}
-.alert-theme h4 {
   color: #ffffff;
+}
+.alert-theme a:hover {
+  color: #eeeeee;
 }
 .btn-group.open .btn-theme.dropdown-toggle {
   background-color: #080808;
@@ -174,23 +175,8 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-heading .panel-title {
   line-height: 1.1;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 #orgm_nav .nav > li > a {
   color: #222222;
@@ -219,22 +205,8 @@ fieldset[disabled] .btn-theme.active {
 .marketing .page-header h1 {
   color: #222222;
 }
-.alert.alert-theme {
-  text-shadow: none;
-}
-.alert.alert-theme a {
-  color: #999999;
-  text-shadow: none;
-  text-decoration: underline;
-}
-.alert.alert-theme a:hover {
-  color: #eeeeee;
-}
 .alert.alert-theme .close {
-  color: #555555;
-  opacity: 100;
-  filter: alpha(opacity=10000);
-  text-shadow: none;
+  color: #ffffff;
 }
 .table tr.theme td {
   color: #ffffff;

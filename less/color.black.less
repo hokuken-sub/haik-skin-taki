@@ -46,22 +46,8 @@
 }
 
 .alert.alert-theme {
-	text-shadow: none;
-
-	a {
-		color: @grayLight;
-		text-shadow: none;
-		text-decoration: underline;
-	}
-
-	a:hover {
-		color: @grayLighter;
-	}
-	
 	.close {
-		color: @gray;
-		.opacity(100);
-		text-shadow: none;
+		color: lighten(@theme, 90%);
 	}
 }
 

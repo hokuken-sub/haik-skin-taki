@@ -13,12 +13,15 @@
   background-color: @themeBackground;
   border-color: @themeBorder;
   color: @themeText;
+  text-shadow: none;
+
+	a {
+		color: @themeText;
+	}
+	
+	a:hover {
+		color: @grayLighter;
+	}
+
 }
 
-.alert-theme a {
-	color: @linkColor;
-}
-
-.alert-theme h4 {
-  color: @themeText;
-}
