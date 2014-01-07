@@ -1,7 +1,7 @@
 <?php
 $config = array(
 	'name' => 'taki',
-	'version' => '1.0.2',
+	'version' => '1.1.0',
 	'thumbnail' => 'img/thumbnail.png',
 	'style_file' => 'css/docs.css',
 	'templates' => array(
