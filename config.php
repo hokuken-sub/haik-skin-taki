@@ -1,7 +1,7 @@
 <?php
 $config = array(
 	'name' => 'taki',
-	'version' => '1.1.0',
+	'version' => '1.2.0',
 	'thumbnail' => 'img/thumbnail.png',
 	'style_file' => 'css/docs.css',
 	'templates' => array(
@@ -9,6 +9,11 @@ $config = array(
 			'filename' => 'top.skin.php',
 			'layouts' => array('SiteNavigator', 'SiteFooter'),
 			'thumbnail' => 'img/thumbnail.top.png',
+		),
+		'fit' => array(
+			'filename' => 'fit.skin.php',
+			'layouts' => array('SiteNavigator', 'SiteFooter'),
+			'thumbnail' => 'img/thumbnail.fit.png',
 		),
 	),
 	'default_template' => 'top',

@@ -18,6 +18,11 @@ body {
 	margin: 30px 0;
 }
 
+#orgm_container.haik-fullpage {
+	padding-left:0;
+	padding-right:0;
+}
+
 /* navi */
 #logo {
 	padding: 0 0;
